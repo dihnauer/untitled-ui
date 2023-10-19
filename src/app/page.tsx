@@ -150,7 +150,7 @@ export default function Home() {
             </label>
             <FileInput.Root>
               <FileInput.Trigger />
-              <FileInput.Control />
+              <FileInput.Control multiple />
             </FileInput.Root>
           </div>
 
