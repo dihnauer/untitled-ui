@@ -3,7 +3,11 @@ import { Button } from "./Button";
 
 export function Profile() {
   return (
-    <div className="flex items-center gap-3">
+    <a
+      href="https://www.linkedin.com/in/dihnauer/"
+      target="_blank"
+      className="flex items-center gap-3"
+    >
       <img
         src="https://github.com/dihnauer.png"
         alt=""
@@ -22,6 +26,6 @@ export function Profile() {
       <Button type="button" variant="ghost">
         <LogOut className="h-5 w-5 text-zinc-500" />
       </Button>
-    </div>
+    </a>
   );
 }
